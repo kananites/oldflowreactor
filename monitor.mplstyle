@@ -1,0 +1,33 @@
+axes.titlesize : 7
+axes.labelsize : 12
+axes.linewidth : 1.5
+axes.prop_cycle : cycler('color', ['F7005C', '0479EB','82F900', '8E04EC'])
+
+lines.linewidth : 1.5
+lines.markersize : 6
+
+xtick.labelsize : 9
+xtick.major.size : 5
+xtick.major.width : 1.5
+xtick.top : False
+xtick.bottom : True
+xtick.direction : in
+
+ytick.labelsize : 9
+ytick.major.size : 5
+ytick.major.width : 1.5
+ytick.left : True
+ytick.right : False
+ytick.direction : in
+
+legend.fontsize : 8
+
+figure.figsize : 6, 6
+figure.autolayout: True
+
+font.family : Arial
+font.style:   normal
+font.variant: normal
+font.weight:  normal
+font.stretch: normal
+font.size : 7

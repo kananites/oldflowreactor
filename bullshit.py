@@ -1,0 +1,28 @@
+from serial_wrapper import SerialWrapper
+
+tc_serial = SerialWrapper.create('COM3', 9600)
+'''for command in 'H':
+    tc_serial.write(b'%s(2)\r' % bytes(command, 'utf-8'))
+    print(command)
+    print(tc_serial.readline().strip())
+'''
+tc_serial.write(b'T(1)\r')
+print(tc_serial.readline().strip())
+tc_serial.write(b'S(1, 20)\r')
+print(tc_serial.readline().strip())
+#tc_serial.write(b'P(1)\r')
+#print(tc_serial.readline().strip())
+#tc_serial.write(b'T(2)\r')
+#print(tc_serial.readline().strip())
+#tc_serial.write(b'S(2, 20)\r')
+#print(tc_serial.readline().strip())
+#tc_serial.write(b'P(2)\r')
+#print(tc_serial.readline().strip())
+# tc_serial.write(b'J(1)\r')
+# print(tc_serial.readline().strip())
+# tc_serial.write(b'HH(1)\r')
+# print(tc_serial.readline().strip())
+# tc_serial.write(b'S(12, 85)\r')
+# print(tc_serial.readline().strip())
+# tc_serial.write(b'T(1)\r')
+# print(tc_serial.readline().strip())

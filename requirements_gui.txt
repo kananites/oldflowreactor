@@ -1,0 +1,17 @@
+# Minimal GUI Requirements - Only Essential Packages
+# Install with: pip install -r requirements_gui.txt
+
+# Essential packages that are causing import errors
+attrs>=21.3.0
+pyserial>=3.5
+matplotlib>=3.5.0
+numpy>=1.21.0
+pandas>=1.3.0
+maya>=0.6.1
+
+# Must Have (in same folder):
+# instruments.py - Instrument controller classes
+# serial_wrapper.py - Serial communication wrapper
+# mfc_controller.py - MFC controller class
+# temp_controller_manager.py - Temperature control manager
+# temp_ramp.py - Temperature ramp functionality

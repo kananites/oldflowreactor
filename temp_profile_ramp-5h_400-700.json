@@ -1,0 +1,6 @@
+{
+    "_comment": "Temperature ramp configuration - hold_times are in HOURS, ramp_rates are in °C/min",
+    "temperatures": [25, 400, 450, 500, 550, 600, 650, 700, 25],
+    "hold_times": [0, 5, 5, 5, 5, 5, 5, 5, 0],
+    "ramp_rates": [5, 5, 5, 5, 5, 5, 5, 5, 0]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+tc_log*.csv
+serial*.log
+*.log
+*.mplstyle
